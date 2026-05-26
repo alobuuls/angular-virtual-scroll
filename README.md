@@ -10,7 +10,7 @@ El proyecto está optimizado para manejar hasta **100,000 elementos** sin afecta
 
 Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
-- 📦 **Node.js:** `v14.x` o `v16.x` *(preferiblemente `v24.13.0`)*
+- 📦 **Node.js:** `v14.x` o `v16.x` *(preferiblemente `v14.21.3`)*
 - 📦 **npm:** `v6+`
 - 🅰️ **Angular CLI:** `v12.x`
 
