@@ -1,0 +1,17 @@
+<h1>
+  Virtual Scroll Angular
+</h1>
+
+<cdk-virtual-scroll-viewport itemSize="80" class="viewport">
+
+  <div class="user-card" *cdkVirtualFor=" let user of users; trackBy: trackById">
+    <h3>
+      {{ user.name }}
+    </h3>
+
+    <p>
+      {{ user.email }}
+    </p>
+  </div>
+
+</cdk-virtual-scroll-viewport>

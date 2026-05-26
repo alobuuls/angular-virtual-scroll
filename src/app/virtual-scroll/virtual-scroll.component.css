@@ -1,0 +1,116 @@
+/* ===== RESET BÁSICO ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7fb;
+  color: #1e293b;
+  padding: 40px;
+}
+
+/* ===== TÍTULO ===== */
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* ===== VIEWPORT ===== */
+
+.viewport {
+  height: 500px;
+  width: 100%;
+  max-width: 700px;
+
+  border-radius: 16px;
+  overflow: auto;
+
+  border: 1px solid #dbe3ec;
+  background: white;
+
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.04),
+    0 12px 30px rgba(0, 0, 0, 0.06);
+
+  padding: 16px;
+}
+
+/* ===== CARD ===== */
+
+.user-card {
+  height: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 16px 20px;
+  margin-bottom: 12px;
+
+  border-radius: 14px;
+
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+/* ===== HOVER ===== */
+
+.user-card:hover {
+  transform: translateY(-2px);
+
+  background: #ffffff;
+
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== NOMBRE ===== */
+
+.user-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+
+  margin-bottom: 6px;
+}
+
+/* ===== EMAIL ===== */
+
+.user-card p {
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* ===== SCROLLBAR ===== */
+
+.viewport::-webkit-scrollbar {
+  width: 10px;
+}
+
+.viewport::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.viewport::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+.viewport::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
